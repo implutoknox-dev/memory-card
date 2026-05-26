@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    border: 0.7rem black solid;
+    width: 100%;
+    background-color: blanchedalmond;
+    
+}
+
+.cardText {
+    width: 100%;
+    color: grey;
+    
+    
+    overflow-wrap: break-word;
+    font-family:fantasy;
+    text-align: center;
+    border: 0.3rem goldenrod solid;
+    border-radius: 1rem;
+    outline: 0.15rem solid rgb(0, 0, 0);
+    background-color: rgb(226, 231, 231);
+    -webkit-text-stroke: #000000 0.05rem;
+   
+    
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.5rem;
+    border: solid rgb(154, 226, 202) 0.3rem;
+    color: #ff6b6b;
+    border-radius: 2rem;
+    width: 13rem;
+    justify-self: center;
+}
+
+.card {
+    border: 0.7rem rgb(0, 110, 255) solid;
+    border-radius: 2rem;
+    outline: 0.2rem black solid;
+    width: 12rem;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(51, 150, 153);
+    transition: transform 0.2s ease;
+    box-shadow: 1rem 1rem 0.5rem black;
+
+    
+}
+
+#cardContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+    margin-bottom: 1rem;
+    
+    
+    
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+#gameContainer {
+   border: 1rem solid transparent;
+  background:
+    linear-gradient(white, rgb(235, 215, 152)) padding-box,
+    linear-gradient(45deg, #ff6b6b, #4ecdc4) border-box;
+  border-radius: 4rem;
+  
+}
+
+.game-over {
+    font-size: 5rem;
+    font-weight: 300;
+    width: 100%
+
+}
+
+.game-won {
+    font-size: 5rem;
+    font-weight: 300;
+    width: 100%
+}
